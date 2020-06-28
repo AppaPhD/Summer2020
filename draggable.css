@@ -1,0 +1,26 @@
+.cube{
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    padding: 20px; 
+}
+
+.circle{
+    width: 150px;
+    height: 150px;
+    background-color: skyblue;
+    border-radius: 50%;
+}
+
+#cube1{
+    font-family: "Helvetica";
+    margin-top: 40px;
+    text-align: center;
+}
+
+
+#circle1{
+    line-height: 150px;
+    font-family: "Helvetica";
+    text-align:center;
+}
