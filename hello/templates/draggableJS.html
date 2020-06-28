@@ -8,16 +8,17 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	</head>
 	<body>
-		Text: <input id="text1">
-		<button id ="textButton" onclick="textInput()">add anything</button>
-		<div>
-			<h1 id="message"></h1>
-		</div>
+		<!-- Text User Input -->
+		Text: <input id="text1" placeholder="add anything">
+		<button id ="button1" onclick="textInput()">done</button>
 
+		<!-- Draggable -->
 		<div class="grid">
 			<div class="block">
 				<div class="droppable draggable-dropzone--occupied">
-					<div class="draggable"></div>
+					<div class="draggable">
+						<div id="result"></div>
+					</div>
 				</div>
 			</div>
 	
@@ -158,6 +159,6 @@
 			</div>
 			
 		</div>
-	<script src="{% static 'js/draggableJS.js' %}" type=text/javascript></script>\
+	<script src="{% static 'js/draggableJS.js' %}" type=text/javascript></script>
 	</body>
 </html>

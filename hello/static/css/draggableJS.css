@@ -1,3 +1,11 @@
+/* Text Inside Draggable */
+#result {
+    font-family: Helvetica;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 70px;
+}
+/* Draggable */
 .grid {
     display: grid;
     grid-template: 150px 150px 150px 150px 150px / 150px 150px 150px 150px 150px 150px 150px 150px 150px;

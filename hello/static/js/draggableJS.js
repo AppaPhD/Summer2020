@@ -1,9 +1,12 @@
-function textInput() {
-    var yuh = document.getElementByID("text1").value;
-    alert("yuh"); 
-    document.getElementById("message").innerHTML = yuh;
+// Text User Input
+function textInput(){
+    var anyText = document.getElementById('text1').value;
+    document.getElementById('result').innerHTML = anyText;
 }
 
+document.getElementById('button1').addEventListener('click', textInput);
+
+// Draggable
 const containers = document.querySelectorAll('.block')
 
 const droppable = new Draggable.Droppable(containers, {
